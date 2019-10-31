@@ -66,8 +66,8 @@ spec:
           value: "yes"
         - name: "LOGLEVEL"
           value: "DEBUG"
-#        - name: "NS_VIP"
-#          value: "10.217.101.183"
+        - name: "NS_VIP"
+          value: "192.168.10.61"
         - name: "NS_APPS_NAME_PREFIX"
           value: "HW-"
        args:
