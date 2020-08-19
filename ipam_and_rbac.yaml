@@ -43,9 +43,13 @@ metadata:
   name: citrix-ipam-controller
   namespace: default
 spec:
+  selector: 
+    matchLabels: 
+      app: citrix-ipam-controller
   replicas: 1
   template:
     metadata:
+      name: citrix-ipam-controller
       labels:
         app: citrix-ipam-controller
     spec:
