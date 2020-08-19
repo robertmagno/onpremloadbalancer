@@ -37,7 +37,7 @@ roleRef:
   name: citrix-ipam-controller
 
 ---
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: citrix-ipam-controller
